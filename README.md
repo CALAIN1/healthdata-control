@@ -348,7 +348,7 @@ de montant à partir des anomalies injectées.
 ## Structure du projet
 
 ```text
-healthcare-reporting-automation/
+healthdata-contro/
 │
 ├── 01_data/
 │   ├── incoming/           # Données reçues
@@ -484,6 +484,7 @@ des doublons :
 
 ```powershell
 python 02_python/test_duplicates.py
+```
 
 ---
 
