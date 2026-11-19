@@ -348,7 +348,7 @@ de montant à partir des anomalies injectées.
 ## Structure du projet
 
 ```text
-healthdata-contro/
+healthdata-control/
 │
 ├── 01_data/
 │   ├── incoming/           # Données reçues
