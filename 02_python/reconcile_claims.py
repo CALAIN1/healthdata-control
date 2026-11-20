@@ -399,8 +399,8 @@ print(f"Anomalies inexpliquees : {len(details_manques) - len(manques_non_control
 
 # Vérification des faux positifs
 faux_positifs_ids = (
-    set(ecarts_detectes)
-    - set(ground_truth_ecarts)
+    set(ecarts_detectes["id_prestation"])
+    - set(ground_truth_ecarts["id_prestation"])
 )
 
 print("\n--- VERIFICATION DES FAUX POSITIFS ---")
