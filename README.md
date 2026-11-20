@@ -180,7 +180,7 @@ les anomalies dans les prestations et les remboursements.
 | Doublons divergents | Identification des conflits sur `id_prestation` nécessitant une vérification humaine |
 | Données manquantes | Identification et traçabilité des champs incomplets |
 | Montant attendu | Calcul à partir du montant facturé et du taux de remboursement associé au type de soin |
-| Écart de montant | Signalement des différences dépassant une tolérance de ±2 € |
+| Écart de montant | Signalement des différences dépassant une tolérance de ±0,02 € |
 | Délai anormal | Signalement des remboursements dépassant 30 jours |
 | Remboursements multiples | Détection de plusieurs remboursements associés à une même prestation |
 | Absence de remboursement | Identification des prestations sans remboursement correspondant |
@@ -277,7 +277,7 @@ obtenues dans une véritable mutuelle santé.
 Le générateur de données et le système de détection
 reposent sur les mêmes règles métier, notamment
 les taux de remboursement par type de soin
-et la tolérance de ±2 €.
+et la tolérance de ±0,02 €.
 
 Le rappel de 100 % sur les anomalies de montant
 contrôlables est donc en partie favorisé par
